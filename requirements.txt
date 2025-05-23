@@ -3,3 +3,4 @@ streamlit-authenticator==0.4.2
 pandas
 bcrypt
 pyyaml
+streamlit-option-menu
