@@ -14,10 +14,10 @@ df = pd.read_csv("users.csv")
 
 credentials = {
     "usernames": {
-        row["email"]: {
+        row["email (fleurette@email.com)"]: {
             "name": row["name"],
             "email": row["email"],
-            "password": row["password"]
+            "password (motdepasse)": row["password"]
         } for _, row in df.iterrows()
     }
 }
